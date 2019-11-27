@@ -1,0 +1,9 @@
+language: python
+
+python:
+    - '3.6'
+
+install:
+    - pip install -r requirements.txt
+
+script: python sherlock.py test  # 如果有单元测试这里应该执行单元测试
